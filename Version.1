@@ -1,4 +1,4 @@
-  
+
 """
 DESCRIPTION:
 1/22/20 ONGOING PROJECT
@@ -29,8 +29,8 @@ def show_board():
     print(row7)
     print(row8)
     print(row9)
-    
-    
+
+
 all_rows = list(row1 + row2 + row3 + row4 + row5 + row6 + row7 + row8 + row9)
 
 def columns(all_rows_list , column_number):
@@ -45,7 +45,7 @@ def columns(all_rows_list , column_number):
     column.append(all_rows_list[column_number + (9 * 7) - 1])
     column.append(all_rows_list[column_number + (9 * 8) - 1])
     return column
-    
+
 column1 = columns(all_rows , 1)
 column2 = columns(all_rows , 2)
 column3 = columns(all_rows , 3)
@@ -93,15 +93,18 @@ def row_solver(row):
                     break
                 else:
                     continue
-                
+
     return solved_row
-            
-            
+
+
 print(row_solver(row1))
 
 """
-Next define a row_column_solver, it might be best to define 
+Next define a row_column_solver, it might be best to define
 
-The row_column_solver would be the row_solver with an additional if statement 
+The row_column_solver would be the row_solver with an additional if statement
 that includes the column
 """
+
+
+#testingtestingtesting
